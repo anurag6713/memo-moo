@@ -1,7 +1,7 @@
 # MemoMoo
 MemoMoo provides an easy way to cache the function results.
 
-Memomoo internally maintains a unique id for every passed dependency. Irrespective to the order passed, it automatically sorts and finds the cached results. 
+MemoMoo internally maintains a unique id for every passed dependency. Irrespective to the order of dependencies, it automatically sorts and finds the cached results. 
 
 ```js
 memoMoo(someFunction, [dependency1, dependency2], options);
@@ -27,7 +27,7 @@ const result2 = memoMoo(arrayToCSV, [moreNames, names]);
 ```
 
 **HEADS-UP:**
-Results are cached based on the passed dependencies. You will end up getting the same result even when you pass different functions with same dependencies. To fix this, You must send an `id` using `options`.
+Results are cached based on the passed dependencies. You will end up getting the same result even when you pass different functions with same dependencies. To fix this, You must send an `id` through `options`.
 
 ```js
 const namesInCSV = memoMoo(arrayToCSV, [moreNames, names], {
