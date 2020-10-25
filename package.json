@@ -1,0 +1,23 @@
+{
+  "name": "memo-moo",
+  "version": "1.0.0",
+  "description": "MemoMoo provides an easy way to cache the function results",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anurag6713/memo-moo.git"
+  },
+  "keywords": [
+    "memoise",
+    "cache"
+  ],
+  "author": "Anurag Shivarathri <anurag6713@gmail.com> (https://github.com/anurag6713)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anurag6713/memo-moo/issues"
+  },
+  "homepage": "https://github.com/anurag6713/memo-moo#readme"
+}
