@@ -18,7 +18,7 @@ function arrayToCSV() {
     return names.concat(moreNames).join(', ');
 }
 
-// First time: Searches the store
+// First time:
 const result1 = memoMoo(arrayToCSV, [names, moreNames]);
 
 // Second time: Returns cached result. 
